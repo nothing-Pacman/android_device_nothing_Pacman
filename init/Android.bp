@@ -1,0 +1,26 @@
+//
+// Copyright (C) 2024 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+// Kernel
+prebuilt_etc {
+    name: "init.mtkgki.rc",
+    src: "init.mtkgki.rc",
+    sub_dir: "init/hw",
+    vendor: true
+}
+
+prebuilt_etc {
+    name: "init.insmod.cfg",
+    src: "init.insmod.cfg",
+    vendor: true
+}
+
+sh_binary {
+    name: "init.insmod.sh",
+    src: "init.insmod.sh",
+    vendor: true
+}
+
