@@ -35,6 +35,11 @@ PRODUCT_PACKAGES += \
     otapreopt_script \
     checkpoint_gc
 
+# Filesystem table
+PRODUCT_PACKAGES += \
+    fstab.mt6886 \
+    fstab.mt6886.vendor_ramdisk
+
 # Kernel
 PRODUCT_PACKAGES += \
     init.insmod.sh \
@@ -46,6 +51,10 @@ PRODUCT_COPY_FILES += \
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
+
+# Recovery
+PRODUCT_PACKAGES += \
+    init.recovery.mt6886.rc
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 33
