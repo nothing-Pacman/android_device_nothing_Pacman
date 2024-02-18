@@ -88,7 +88,8 @@ PRODUCT_PACKAGES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    device/nothing/Pacman
+    device/nothing/Pacman \
+    hardware/mediatek
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/nothing/Pacman/Pacman-vendor.mk)

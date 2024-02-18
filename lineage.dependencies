@@ -6,5 +6,9 @@
     {
         "repository": "android_device_mediatek_sepolicy_vndr"
         "target_path": "device/mediatek/sepolicy_vndr
+    },
+    {
+        "repository": "android_hardware_mediatek",
+        "target_path": "hardware/mediatek"
     }
 ]
