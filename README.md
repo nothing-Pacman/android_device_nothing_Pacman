@@ -1,0 +1,9 @@
+# Android Device tree for Nothing Phone (2a) (`Pacman`)
+
+```
+#
+# Copyright (C) 2024 The LineageOS Project
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+```
