@@ -18,5 +18,12 @@ TARGET_CPU_VARIANT_RUNTIME := cortex-a76
 
 IGNORE_PREFER32_ON_DEVICE := true
 
+# Bootloader
+TARGET_BOOTLOADER_BOARD_NAME := Pacman
+TARGET_NO_BOOTLOADER := true
+
+# Plaform
+TARGET_BOARD_PLATFORM := mt6886
+
 # Inherit the proprietary files
 include vendor/nothing/Pacman/BoardConfigVendor.mk
