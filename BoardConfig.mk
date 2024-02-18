@@ -59,10 +59,14 @@ TARGET_KERNEL_SOURCE := $(DEVICE_PATH)-kernel/kernel-headers
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)-kernel/dtbo.img
 BOARD_PREBUILT_DTBIMAGE_DIR := $(DEVICE_PATH)-kernel/dtb
 
-BOARD_RECOVERY_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)-kernel/modules.load.recovery))
-BOARD_RECOVERY_KERNEL_MODULES := $(addprefix $(DEVICE_PATH)-kernel/kernel-modules/, $(BOARD_RECOVERY_KERNEL_MODULES_LOAD))
 BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)-kernel/modules.load.vendor_boot))
 BOARD_VENDOR_RAMDISK_KERNEL_MODULES := $(addprefix $(DEVICE_PATH)-kernel/kernel-modules/, $(BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD))
+
+RECOVERY_MODULES := $(addprefix $(DEVICE_PATH)-kernel/kernel-modules/, $(BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD))
+BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)-kernel/modules.load.recovery))
+BOARD_VENDOR_RAMDISK_KERNEL_MODULES := $(sort $(BOARD_VENDOR_RAMDISK_KERNEL_MODULES) $(RECOVERY_MODULES))
+BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)-kernel/modules.load))
+BOARD_VENDOR_KERNEL_MODULES := $(wildcard  $(DEVICE_PATH)-kernel/kernel-modules/*.ko)
 
 # Plaform
 TARGET_BOARD_PLATFORM := mt6886
