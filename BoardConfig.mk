@@ -122,5 +122,11 @@ TARGET_USERIMAGES_SPARSE_F2FS_DISABLED := true
 # Plaform
 TARGET_BOARD_PLATFORM := mt6886
 
+# Recovery
+BOARD_MOVE_RECOVERY_RESOURCES_TO_VENDOR_BOOT := true
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/init/fstab.mt6886
+TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
+TARGET_USERIMAGES_USE_F2FS := true
+
 # Inherit the proprietary files
 include vendor/nothing/Pacman/BoardConfigVendor.mk

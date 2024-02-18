@@ -4,6 +4,14 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 
+// Filesystem table
+prebuilt_etc {
+    name: "fstab.mt6886",
+    src: "fstab.mt6886",
+    vendor: true,
+    vendor_ramdisk_available: true
+}
+
 // Kernel
 prebuilt_etc {
     name: "init.mtkgki.rc",
@@ -24,3 +32,10 @@ sh_binary {
     vendor: true
 }
 
+// Recovery
+prebuilt_etc {
+    name: "init.recovery.mt6886.rc",
+    src: "init.recovery.mt6886.rc",
+    recovery: true,
+    sub_dir: "init"
+}
