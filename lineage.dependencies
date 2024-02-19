@@ -2,5 +2,9 @@
     {
         "repository": "android_device_nothing_Pacman-kernel",
         "target_path": "device/nothing/Pacman-kernel"
+    },
+    {
+        "repository": "android_device_mediatek_sepolicy_vndr"
+        "target_path": "device/mediatek/sepolicy_vndr
     }
 ]
