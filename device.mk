@@ -13,6 +13,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)-kernel/kernel:kernel
 
+# Partitions
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 33
 
