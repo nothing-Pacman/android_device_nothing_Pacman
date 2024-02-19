@@ -9,6 +9,23 @@ DEVICE_PATH := device/nothing/Pacman
 # Asserts
 TARGET_OTA_ASSERT_DEVICE := Pacman,PacmanEEA,PacmanIND,PacmanJPN
 
+# A/B
+AB_OTA_UPDATER := true
+AB_OTA_PARTITIONS += \
+    boot \
+    dtbo \
+    odm \
+    odm_dlkm \
+    product \
+    system \
+    system_ext \
+    system_dlkm  \
+    vendor \
+    vbmeta_vendor \
+    vbmeta_system \
+    vendor_boot \
+    vendor_dlkm
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-2a-dotprod
