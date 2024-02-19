@@ -35,6 +35,10 @@ PRODUCT_PACKAGES += \
     otapreopt_script \
     checkpoint_gc
 
+# fastbootd
+PRODUCT_PACKAGES += \
+    fastbootd
+
 # Filesystem table
 PRODUCT_PACKAGES += \
     fstab.mt6886 \
