@@ -56,20 +56,6 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "connectivity.common.rc",
-    src: "init.connectivity.common.rc",
-    vendor: true,
-    sub_dir: "init/hw"
-}
-
-prebuilt_etc {
-    name: "init.connectivity.rc",
-    src: "init.connectivity.rc",
-    vendor: true,
-    sub_dir: "init/hw"
-}
-
-prebuilt_etc {
     name: "init.modem.rc",
     src: "init.modem.rc",
     vendor: true,

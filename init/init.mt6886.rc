@@ -1,6 +1,7 @@
 # MTK platform .rc configure
 
-import /vendor/etc/init/hw/init.connectivity.rc
+import /vendor/etc/init/hw/init_conninfra.rc
+import /vendor/etc/init/hw/init.connectivity.common.rc
 import /vendor/etc/init/hw/init.mt6886.usb.rc
 import /vendor/etc/init/hw/init.project.rc
 import /vendor/etc/init/hw/${ro.vendor.init.sensor.rc}
