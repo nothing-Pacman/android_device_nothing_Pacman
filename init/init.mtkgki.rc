@@ -9,7 +9,3 @@ on early-init
     setprop vendor.all.modules.ready 0
     write /proc/bootprof "modprobe: Load_Module_START"
     start insmod_sh
-
-# start meta_tst for ATM
-on property:sys.boot_completed=1 && property:ro.boot.atm=enable
-     start meta_tst
