@@ -47,6 +47,20 @@ PRODUCT_PACKAGES += \
     fstab.mt6886 \
     fstab.mt6886.vendor_ramdisk
 
+# Init
+PRODUCT_PACKAGES += \
+    init_conninfra.rc \
+    init.cgroup.rc \
+    init.connectivity.common.rc \
+    init.connectivity.rc \
+    init.modem.rc \
+    init.mt6886.rc \
+    init.mt6886.usb.rc \
+    init.project.rc \
+    init.sensor_2_0.rc \
+    init.stnfc.rc \
+    stnfc_nt.rc
+
 # Kernel
 PRODUCT_PACKAGES += \
     init.insmod.sh \
@@ -65,6 +79,10 @@ PRODUCT_PACKAGES += \
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 33
+
+# Script
+PRODUCT_PACKAGES += \
+    stnfc_nt.sh
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
