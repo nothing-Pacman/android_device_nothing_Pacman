@@ -39,3 +39,88 @@ prebuilt_etc {
     recovery: true,
     sub_dir: "init"
 }
+
+// Init
+prebuilt_etc {
+    name: "init_conninfra.rc",
+    src: "init_conninfra.rc",
+    vendor: true,
+    sub_dir: "init/hw"
+}
+
+prebuilt_etc {
+    name: "init.cgroup.rc",
+    src: "init.cgroup.rc",
+    vendor: true,
+    sub_dir: "init/hw"
+}
+
+prebuilt_etc {
+    name: "connectivity.common.rc",
+    src: "init.connectivity.common.rc",
+    vendor: true,
+    sub_dir: "init/hw"
+}
+
+prebuilt_etc {
+    name: "init.connectivity.rc",
+    src: "init.connectivity.rc",
+    vendor: true,
+    sub_dir: "init/hw"
+}
+
+prebuilt_etc {
+    name: "init.modem.rc",
+    src: "init.modem.rc",
+    vendor: true,
+    sub_dir: "init/hw"
+}
+
+prebuilt_etc {
+    name: "init.mt6886.rc",
+    src: "init.mt6886.rc",
+    vendor: true,
+    sub_dir: "init/hw"
+}
+
+prebuilt_etc {
+    name: "init.mt6886.usb.rc",
+    src: "init.mt6886.usb.rc",
+    vendor: true,
+    sub_dir: "init/hw"
+}
+
+prebuilt_etc {
+    name: "init.project.rc",
+    src: "init.project.rc",
+    vendor: true,
+    sub_dir: "init/hw"
+}
+
+prebuilt_etc {
+    name: "init.sensor_2_0.rc",
+    src: "init.sensor_2_0.rc",
+    vendor: true,
+    sub_dir: "init/hw"
+}
+
+prebuilt_etc {
+    name: "init.stnfc.rc",
+    src: "init.stnfc.rc",
+    vendor: true,
+    sub_dir: "init/hw"
+}
+
+prebuilt_etc {
+    name: "stnfc_nt.rc",
+    src: "stnfc_nt.rc",
+    vendor: true,
+    sub_dir: "init/hw"
+}
+
+// Scripts
+sh_binary {
+    name: "stnfc_nt.sh",
+    src: "stnfc_nt.sh",
+    vendor: true
+}
