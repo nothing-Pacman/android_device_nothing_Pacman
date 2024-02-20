@@ -3,21 +3,14 @@
 import /vendor/etc/init/hw/init.connectivity.rc
 import /vendor/etc/init/hw/init.mt6886.usb.rc
 import /vendor/etc/init/hw/init.project.rc
-import /system_ext/etc/init/hw/init.aee.rc
-import /FWUpgradeInit.rc
-import /vendor/etc/init/hw/init.aee.rc
-import /vendor/etc/init/hw/init.volte.rc
-import /vendor/etc/init/hw/init.mal.rc
 import /vendor/etc/init/hw/${ro.vendor.init.sensor.rc}
 import /vendor/etc/init/hw/init.cgroup.rc
 # ifdef NT_EDIT
 # add support stnfc to fix AERO-30
 import /vendor/etc/init/hw/init.stnfc.rc
-import /system/etc/init/hw/init.stnfc.rc
 # endif /*NT_EDIT*/
 # #ifdef NT_EDIT
 # add to new_feature AERO-264
-import /vendor/etc/init/hw/init.board_id.rc
 # #endif /* NT_EDIT */
 
 # #ifdef NT_EDIT
