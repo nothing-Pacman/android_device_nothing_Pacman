@@ -52,7 +52,6 @@ PRODUCT_PACKAGES += \
     init_conninfra.rc \
     init.cgroup.rc \
     init.connectivity.common.rc \
-    init.connectivity.rc \
     init.modem.rc \
     init.mt6886.rc \
     init.mt6886.usb.rc \
