@@ -38,6 +38,9 @@ PRODUCT_PACKAGES += \
     otapreopt_script \
     checkpoint_gc
 
+# Debug filsystem
+PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
+
 # fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
