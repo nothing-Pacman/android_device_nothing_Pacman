@@ -42,15 +42,15 @@ prebuilt_etc {
 
 // Init
 prebuilt_etc {
-    name: "init_conninfra.rc",
-    src: "init_conninfra.rc",
+    name: "init.cgroup.rc",
+    src: "init.cgroup.rc",
     vendor: true,
     sub_dir: "init/hw"
 }
 
 prebuilt_etc {
-    name: "init.cgroup.rc",
-    src: "init.cgroup.rc",
+    name: "init.connectivity.rc",
+    src: "init.connectivity.rc",
     vendor: true,
     sub_dir: "init/hw"
 }
