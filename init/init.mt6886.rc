@@ -1230,7 +1230,7 @@ on property:sys.boot_completed=1
 
     # zram writeback
     # setprop persist.sys.zram_enabled 1
-    swapon_all /vendor/etc/fstab.enableswap
+    swapon_all /vendor/etc/fstab.mt6886
 
 on property:sys.boot_completed=1
 
