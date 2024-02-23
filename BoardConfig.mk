@@ -6,5 +6,8 @@
 
 DEVICE_PATH := device/nothing/Pacman
 
+# Asserts
+TARGET_OTA_ASSERT_DEVICE := Pacman,PacmanEEA,PacmanIND,PacmanJPN
+
 # Inherit the proprietary files
 include vendor/nothing/Pacman/BoardConfigVendor.mk
