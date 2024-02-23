@@ -4,6 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+BOARD_VENDOR := nothing
 DEVICE_PATH := device/nothing/Pacman
 
 # Asserts
