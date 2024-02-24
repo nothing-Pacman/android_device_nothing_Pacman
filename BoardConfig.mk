@@ -16,5 +16,7 @@ TARGET_CPU_ABI := arm64-v8a
 TARGET_CPU_VARIANT := cortex-a76
 TARGET_CPU_VARIANT_RUNTIME := cortex-a76
 
+IGNORE_PREFER32_ON_DEVICE := true
+
 # Inherit the proprietary files
 include vendor/nothing/Pacman/BoardConfigVendor.mk
