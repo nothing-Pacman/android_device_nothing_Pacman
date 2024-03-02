@@ -118,6 +118,13 @@ prebuilt_etc {
     sub_dir: "init/hw"
 }
 
+prebuilt_etc {
+    name: "ueventd.mt6886.rc",
+    filename: "ueventd.rc",
+    src: "ueventd.mt6886.rc",
+    vendor: true,
+}
+
 // Scripts
 sh_binary {
     name: "stnfc_nt.sh",

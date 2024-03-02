@@ -59,7 +59,8 @@ PRODUCT_PACKAGES += \
     init.project.rc \
     init.sensor_2_0.rc \
     init.stnfc.rc \
-    stnfc_nt.rc
+    stnfc_nt.rc \
+    ueventd.mt6886.rc
 
 # Kernel
 PRODUCT_PACKAGES += \
