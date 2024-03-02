@@ -75,6 +75,9 @@ PRODUCT_COPY_FILES += \
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
+# Properties
+include $(LOCAL_PATH)/configs/properties/vendor_logtag.mk
+
 # Recovery
 PRODUCT_PACKAGES += \
     init.recovery.mt6886.rc
