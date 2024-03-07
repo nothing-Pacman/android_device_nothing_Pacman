@@ -172,6 +172,23 @@ PRODUCT_PACKAGES += \
     libkeymint.vendor:64 \
     libpuresoftkeymasterdevice.vendor:64
 
+# Media
+PRODUCT_PACKAGES += \
+    libavservices_minijail_vendor:64 \
+    libcodec2_hidl@1.1.vendor:64 \
+    libcodec2_hidl@1.2.vendor:64 \
+    libcodec2_soft_common.vendor:64 \
+    libsfplugin_ccodec_utils.vendor:64 \
+    libstagefright_foundation:64 \
+    libstagefright_softomx_plugin.vendor:64
+
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/media,$(TARGET_COPY_OUT_VENDOR)/etc)
+
+PRODUCT_COPY_FILES += \
+    frameworks/av/media/libstagefright/data/media_codecs_google_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_audio.xml \
+    frameworks/av/media/libstagefright/data/media_codecs_google_video_le.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_video_le.xml
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
