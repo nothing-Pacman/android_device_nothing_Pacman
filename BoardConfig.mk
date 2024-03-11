@@ -69,6 +69,7 @@ BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)-kernel/mo
 BOARD_VENDOR_KERNEL_MODULES := $(wildcard  $(DEVICE_PATH)-kernel/kernel-modules/*.ko)
 
 # Partitions
+-include vendor/lineage/config/BoardConfigReservedSize.mk
 BOARD_FLASH_BLOCK_SIZE := 262144
 BOARD_USES_METADATA_PARTITION := true
 
