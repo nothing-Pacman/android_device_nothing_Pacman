@@ -67,3 +67,11 @@ ro.vendor.mtk_cam_security_support=1
 ro.vendor.mtk_camera_app_version=3
 vendor.camera.mdp.cz.enable=1
 vendor.camera.mdp.dre.enable=1
+
+# Connectivity
+persist.vendor.connsys.chipid=-1
+persist.vendor.connsys.dynamic.dump=0
+persist.vendor.connsys.fm_chipid=mt6635
+persist.vendor.connsys.patch.version=-1
+ro.vendor.connsys.dedicated.log=1
+ro.vendor.connsys.dedicated.log.port=bt,wifi,ics,btmcu,wifimcu
