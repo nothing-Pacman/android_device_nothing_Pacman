@@ -149,6 +149,20 @@ PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl:64 \
     android.hardware.gatekeeper@1.0-service
 
+# Graphics
+PRODUCT_PACKAGES += \
+    android.hardware.graphics.composer@2.3-service:64 \
+    android.hardware.graphics.allocator@4.0.vendor:64 \
+    android.hardware.memtrack-service.mediatek-mali:64 \
+
+PRODUCT_PACKAGES += \
+    libdrm.vendor:64
+
+PRODUCT_COPY_FILES += \
+	frameworks/native/data/etc/android.hardware.vulkan.compute-0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.compute.xml \
+	frameworks/native/data/etc/android.hardware.vulkan.level-1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.level.xml \
+	frameworks/native/data/etc/android.hardware.vulkan.version-1_1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.version.xml
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
