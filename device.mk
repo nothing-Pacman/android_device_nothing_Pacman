@@ -70,6 +70,10 @@ PRODUCT_COPY_FILES += \
 
 # Binder
 PRODUCT_PACKAGES += \
+    android.hidl.allocator@1.0.vendor:64 \
+    android.hidl.memory@1.0.vendor:64
+
+PRODUCT_PACKAGES += \
     libhidltransport:64 \
     libhidltransport.vendor:64 \
     libhwbinder.vendor:64 \
