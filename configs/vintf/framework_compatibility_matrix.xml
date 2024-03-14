@@ -1,4 +1,12 @@
 <compatibility-matrix version="7.0" type="framework">
+    <hal format="aidl" optional="true">
+        <name>android.hardware.bluetooth.audio</name>
+        <version>1</version>
+        <interface>
+            <name>IBluetoothAudioProviderFactory</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
     <hal format="hidl" optional="true">
         <name>vendor.mediatek.hardware.atci</name>
         <transport>hwbinder</transport>
