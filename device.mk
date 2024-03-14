@@ -144,6 +144,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)-kernel/kernel:kernel
 
+# Gatekeeper
+PRODUCT_PACKAGES += \
+    android.hardware.gatekeeper@1.0-impl:64 \
+    android.hardware.gatekeeper@1.0-service
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 

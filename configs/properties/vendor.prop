@@ -92,3 +92,6 @@ ro.vendor.display.safe.backlight=3515
 ro.vendor.display.thermal_limit_brightness=4095,4080,3876,3775,3515,3460,3274,3088,2876,2650,2376
 ro.vendor.display.user.control.lux=0,100,1000,2500,4500,8000
 vendor.display.enable_ic_hw_roundedcorner=1
+
+# Gatekeeper
+ro.hardware.gatekeeper=trustonic
