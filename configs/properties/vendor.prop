@@ -75,3 +75,20 @@ persist.vendor.connsys.fm_chipid=mt6635
 persist.vendor.connsys.patch.version=-1
 ro.vendor.connsys.dedicated.log=1
 ro.vendor.connsys.dedicated.log.port=bt,wifi,ics,btmcu,wifimcu
+
+# Display
+persist.vendor.radio.nr_display_rule=0
+ro.vendor.display.array.backlight=470,470,661,1057,1498,1650,1711,1886,2040,2131,2325,2516,2704,3029,3137,3515,3515,3776
+ro.vendor.display.array.hbm.backlight=3776,3922,4080
+ro.vendor.display.array.hbm.maxlux=8000,20000,40000
+ro.vendor.display.array.hbm.minlux=7000,18000,38000
+ro.vendor.display.array.lux=0,1,4,10,25,60,150,390,620,750,1000,1300,1700,2800,3500,4500,7000,8000
+ro.vendor.display.hbm.maxbacklight=4095
+ro.vendor.display.low_brightness_threshold=0.425
+ro.vendor.display.normal.maxbacklight=3776
+ro.vendor.display.normal.minbacklight=30
+ro.vendor.display.panel.type=Flexible_AMOLED
+ro.vendor.display.safe.backlight=3515
+ro.vendor.display.thermal_limit_brightness=4095,4080,3876,3775,3515,3460,3274,3088,2876,2650,2376
+ro.vendor.display.user.control.lux=0,100,1000,2500,4500,8000
+vendor.display.enable_ic_hw_roundedcorner=1
