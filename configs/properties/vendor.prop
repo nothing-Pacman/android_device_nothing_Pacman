@@ -196,3 +196,7 @@ vendor.debug.sf.dynamic_duration.sf.late.120=12300000
 vendor.debug.sf.dynamic_duration.sf.late.60=15600000
 vendor.debug.sf.dynamic_duration.sf.late.90=16100000
 vendor.debug.sf.dynamic_duration.switch=1
+
+# Keymaster
+ro.crypto.volume.filenames_mode=aes-256-cts
+ro.hardware.kmsetkey=beanpod

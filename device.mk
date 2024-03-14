@@ -163,6 +163,15 @@ PRODUCT_COPY_FILES += \
 	frameworks/native/data/etc/android.hardware.vulkan.level-1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.level.xml \
 	frameworks/native/data/etc/android.hardware.vulkan.version-1_1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.version.xml
 
+# Keymaster
+PRODUCT_PACKAGES += \
+    libkeymaster_messages.vendor:64 \
+    libkeymaster_portable.vendor:64
+
+PRODUCT_PACKAGES += \
+    libkeymint.vendor:64 \
+    libpuresoftkeymasterdevice.vendor:64
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
