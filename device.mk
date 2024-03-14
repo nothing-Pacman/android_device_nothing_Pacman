@@ -68,6 +68,13 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.audio.low_latency.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.low_latency.xml \
     frameworks/native/data/etc/android.hardware.audio.pro.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.pro.xml \
 
+# Binder
+PRODUCT_PACKAGES += \
+    libhidltransport:64 \
+    libhidltransport.vendor:64 \
+    libhwbinder.vendor:64 \
+    libhwbinder:64
+
 # Debug filsystem
 PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
