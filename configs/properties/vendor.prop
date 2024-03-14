@@ -1,0 +1,11 @@
+# Audio
+aaudio.mmap_exclusive_policy=2
+aaudio.mmap_policy=2
+audio.deep_buffer.media=true
+audio.offload.min.duration.secs=30
+audio.offload.video=true
+vendor.audio.powerhal.power.ul=true
+vendor.audio.usb.iems.period_us=5000
+vendor.audio.usb.super_hifi=true
+ro.vendor.mtk_audio_tuning_tool_ver=V1
+ro.vendor.mtk_hifiaudio_support=1

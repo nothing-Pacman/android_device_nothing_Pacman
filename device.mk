@@ -41,6 +41,33 @@ PRODUCT_PACKAGES += \
     otapreopt_script \
     checkpoint_gc
 
+# Audio
+$(call soong_config_set,android_hardware_audio,run_64bit,true)
+
+PRODUCT_PACKAGES += \
+    android.hardware.audio.service \
+    android.hardware.audio@7.0-impl:64 \
+    android.hardware.audio.effect@7.0-impl:64
+
+PRODUCT_PACKAGES += \
+    audioclient-types-aidl-cpp.vendor:64 \
+    audio.bluetooth.default:64 \
+    audio.usb.default:64
+
+PRODUCT_PACKAGES += \
+    libalsautils:64 \
+    libopus.vendor:64 \
+    libtinycompress:64 \
+    libnbaio_mono:64 \
+    libaudiofoundation.vendor:64
+
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
+
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.audio.low_latency.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.low_latency.xml \
+    frameworks/native/data/etc/android.hardware.audio.pro.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.pro.xml \
+
 # Debug filsystem
 PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
