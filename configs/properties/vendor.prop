@@ -9,3 +9,20 @@ vendor.audio.usb.iems.period_us=5000
 vendor.audio.usb.super_hifi=true
 ro.vendor.mtk_audio_tuning_tool_ver=V1
 ro.vendor.mtk_hifiaudio_support=1
+
+# Bluetooth
+bluetooth.profile.bap.broadcast.assist.enabled=false
+bluetooth.profile.bap.broadcast.source.enabled=false
+bluetooth.profile.bap.unicast.client.enabled=false
+bluetooth.profile.ccp.server.enabled=false
+bluetooth.profile.csip.set_coordinator.enabled=false
+bluetooth.profile.mcp.server.enabled=false
+bluetooth.profile.sap.server.enabled=true
+bluetooth.profile.vcp.controller.enabled=false
+persist.bluetooth.a2dp_offload.cap=sbc-aac
+persist.bluetooth.a2dp_offload.disabled=false
+persist.vendor.bluetooth.leaudio_mode=
+persist.vendor.bluetooth.sar_in=12
+persist.vendor.bluetooth.sar_none_in=15
+ro.bluetooth.a2dp_offload.supported=true
+vendor.bluetooth.ldac.abr=true

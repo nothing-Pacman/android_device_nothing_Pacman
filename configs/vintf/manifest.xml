@@ -14,10 +14,6 @@
         <transport>hwbinder</transport>
         <fqname>@1.1::IBluetoothHci/default</fqname>
     </hal>
-    <hal format="aidl">
-        <name>android.hardware.bluetooth.audio</name>
-        <fqname>IBluetoothAudioProviderFactory/default</fqname>
-    </hal>
     <hal format="hidl">
         <name>android.hardware.gatekeeper</name>
         <transport>hwbinder</transport>
