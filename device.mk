@@ -90,6 +90,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libbluetooth_audio_session
 
+# Camera
+PRODUCT_PACKAGES += \
+    android.hardware.camera.common@1.0.vendor \
+    android.hardware.camera.device@3.6.vendor \
+    android.hardware.camera.provider@2.6.vendor \
+
 # Debug filsystem
 PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
