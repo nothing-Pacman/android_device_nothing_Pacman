@@ -1,0 +1,32 @@
+libOpenCL.so
+libnir_neon_driver_ndk.mtk.vndk.so
+libcmdl_ndk.mtk.vndk.so
+libarmnn_ndk.mtk.vndk.so
+libmpbase.so 64
+libarcsoft_portrait_super_night_raw.so 64
+libarcsoft_super_night_raw.so 64
+libarcsoft_dark_vision_raw.so 64
+libarcsoft_beautyshot.so 64
+libarcsoft_singlecam_bokeh.so 64
+libarcsoft_hdr_detection.so 64
+libarcsoft_aiscenedetection.so 64
+libmouth_mask_detection.arcsoft.so 64
+libarcsoft_watermark.so 64
+libarcsoft_portrait_distortion_correction.so 64
+libarcsoft_high_dynamic_range.so 64
+libarcsoft_dualcam_refocus_image.so 64
+libarcsoft_dualcam_refocus_video.so 64
+libarcsoft_superportrait.so 64
+vendor.mediatek.hardware.camera.isphal@1.0.so 64
+libmorpho_RawDeepDenoise.so 64
+libneuron_adapter_mc.so 64
+libarcsoft_mf_superresolution.so 64
+libst_ns_models.so 64
+libttm_nightsight.so 64
+libttm_nightsight_ae.so 64
+libportrait_repair_apu.so 64
+libneuron_runtime.6.so 64
+libapu_mdw.so 64
+libapu_mdw_batch.so 64
+libstmobile_rater.so 64
+libcamxextension_night.so 64

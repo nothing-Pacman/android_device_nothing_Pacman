@@ -147,6 +147,10 @@ PRODUCT_PACKAGES += \
     libkeymint.vendor \
     libpuresoftkeymasterdevice.vendor
 
+# Linker
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
