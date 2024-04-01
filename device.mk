@@ -99,6 +99,11 @@ PRODUCT_PACKAGES += \
 # Debug filsystem
 PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
+# DRM (Digital Rights Media)
+PRODUCT_PACKAGES += \
+    android.hardware.drm@1.4.vendor \
+    android.hardware.drm-service.clearkey \
+
 # fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
