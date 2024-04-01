@@ -113,6 +113,11 @@ PRODUCT_PACKAGES += \
     fstab.mt6886 \
     fstab.mt6886.vendor_ramdisk
 
+# Gatekeeper
+PRODUCT_PACKAGES += \
+    android.hardware.gatekeeper@1.0-impl \
+    android.hardware.gatekeeper@1.0-service
+
 # Init
 PRODUCT_PACKAGES += \
     init.cgroup.rc \
