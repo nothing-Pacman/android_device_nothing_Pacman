@@ -81,6 +81,15 @@ PRODUCT_PACKAGES += \
     libhwbinder.vendor \
     libhwbinder
 
+# Bluetooth
+PRODUCT_PACKAGES += \
+    android.hardware.bluetooth.audio-impl \
+    android.hardware.bluetooth@1.0.vendor \
+    android.hardware.bluetooth@1.1.vendor
+
+PRODUCT_PACKAGES += \
+    libbluetooth_audio_session
+
 # Debug filsystem
 PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
