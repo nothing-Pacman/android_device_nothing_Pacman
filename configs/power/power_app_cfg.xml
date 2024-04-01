@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The source code provided herein is for optimizing power and performance of gaming software
+and certain applications (e.g. Sina Weibo, QQ) only and should not be used and/or included in
+any software that is unrelated to enhancing end-user experience. -->
+<WHITELIST>
+    <Package name="com.tencent.tmgp.sgame">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_CFP_ENABLE" param1="1"></data>
+                    <data cmd="PERF_RES_CFP_UP_LOADING" param1="60"></data>
+                    <data cmd="PERF_RES_CFP_DOWN_LOADING" param1="50"></data>
+                    <data cmd="PERF_RES_FPS_FBT_GCC_UP_STEP" param1="10"></data>
+                    <data cmd="PERF_RES_FPS_FBT_GCC_DOWN_STEP" param1="3"></data>
+                    <data cmd="PERF_RES_FPS_FBT_GCC_UP_SEC_PCT" param1="10"></data>
+                    <data cmd="PERF_RES_FPS_FBT_QR_T2WNT_Y_N" param1="50"></data>
+                    <data cmd="PERF_RES_FPS_FBT_QR_T2WNT_Y_P" param1="0"></data>
+                    <data cmd="PERF_RES_FPS_FBT_ULTRA_RESCUE" param1="1"></data>
+                </WINDOW>
+            </FPS>
+            <FPS value="60">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_FBT_LIMIT_CFREQ" param1="2300000"></data>
+                    <data cmd="PERF_RES_FPS_FBT_LIMIT_RFREQ" param1="2600000"></data>
+                    <data cmd="PERF_RES_FPS_FBT_LIMIT_CFREQ_M" param1="1650000"></data>
+                    <data cmd="PERF_RES_FPS_FBT_LIMIT_RFREQ_M" param1="2000000"></data>
+                    <data cmd="PERF_RES_FPS_FBT_QR_T2WNT_X" param1="-10"></data>
+                    <data cmd="PERF_RES_FPS_FBT_RESCUE_F" param1="35"></data>
+                    <data cmd="PERF_RES_FPS_FBT_GCC_DOWN_QUOTA_PCT" param1="20"></data>
+                </WINDOW>
+            </FPS>
+            <FPS value="90">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_FBT_LIMIT_CFREQ" param1="2700000"></data>
+                    <data cmd="PERF_RES_FPS_FBT_LIMIT_RFREQ" param1="2800000"></data>
+                    <data cmd="PERF_RES_FPS_FBT_LIMIT_CFREQ_M" param1="1750000"></data>
+                    <data cmd="PERF_RES_FPS_FBT_LIMIT_RFREQ_M" param1="2000000"></data>
+                    <data cmd="PERF_RES_FPS_FBT_QR_T2WNT_X" param1="-20"></data>
+                    <data cmd="PERF_RES_FPS_FBT_RESCUE_F" param1="50"></data>
+                    <data cmd="PERF_RES_FPS_FBT_GCC_DOWN_QUOTA_PCT" param1="50"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.mobile.legends">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_THERMAL_POLICY" param1="0"></data>
+                    <data cmd="PERF_RES_CFP_ENABLE" param1="1"></data>
+                    <data cmd="PERF_RES_CFP_UP_LOADING" param1="60"></data>
+                    <data cmd="PERF_RES_CFP_DOWN_LOADING" param1="50"></data>
+                    <data cmd="PERF_RES_FPS_FBT_GCC_UP_STEP" param1="15"></data>
+                    <data cmd="PERF_RES_FPS_FBT_GCC_DOWN_STEP" param1="3"></data>
+                    <data cmd="PERF_RES_FPS_FBT_GCC_UP_SEC_PCT" param1="10"></data>
+                    <data cmd="PERF_RES_FPS_FBT_QR_T2WNT_Y_N" param1="50"></data>
+                    <data cmd="PERF_RES_FPS_FBT_QR_T2WNT_Y_P" param1="0"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.tencent.tmgp.speedmobile">
+        <Activity name="Common">
+            <FPS value="60">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_FBT_GCC_FPS_MARGIN" param1="25"></data>
+                    <data cmd="PERF_RES_FPS_FBT_QR_T2WNT_Y_P_BY_PID" param1="0"></data>
+                    <data cmd="PERF_RES_FPS_FBT_QR_T2WNT_X_BY_PID" param1="-5"></data>
+                </WINDOW>
+            </FPS>
+            <FPS value="120">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_FBT_BOOST_AFFINITY_BY_PID" param1="2"></data>
+                    <data cmd="PERF_RES_FPS_FBT_SEPARATE_RELEASE_SEC_BY_PID" param1="0"></data>
+                    <data cmd="PERF_RES_SCHED_PREFER_IDLE_PER_TASK" param1="0"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.tencent.tmgp.pubgmhd">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_FBT_GCC_UP_STEP_BY_PID" param1="3"></data>
+                    <data cmd="PERF_RES_FPS_FBT_GCC_DOWN_SEC_PCT_BY_PID" param1="14"></data>
+                    <data cmd="PERF_RES_FPS_FBT_GCC_DOWN_STEP_BY_PID" param1="2"></data>
+                    <data cmd="PERF_RES_FPS_FBT_GCC_QR_FILTER_OUTLIER" param1="1"></data>
+                    <data cmd="PERF_RES_FRS_OT_THROTTLED" param1="20"></data>
+                    <data cmd="PERF_RES_FRS_MAX_THROTTLED_FPS" param1="2000"></data>
+                    <data cmd="PERF_RES_FRS_CT_PTIME" param1="5"></data>
+                    <data cmd="PERF_RES_FPS_FBT_SEPARATE_RELEASE_SEC_BY_PID" param1="0"></data>
+                    <data cmd="PERF_RES_FPS_FBT_SEPARATE_AA_BY_PID" param1="0"></data>
+                    <data cmd="PERF_RES_CFP_UP_LOADING" param1="95"></data>
+                    <data cmd="PERF_RES_CFP_DOWN_LOADING" param1="85"></data>
+                    <data cmd="PERF_RES_CFP_DOWN_TIME" param1="2"></data>
+                    <data cmd="PERF_RES_FRS_TARGET_TEMP" param1="49000"></data>
+                    <data cmd="PERF_RES_THERMAL_POLICY" param1="0"></data>
+                </WINDOW>
+            </FPS>
+            <FPS value="60">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_FBT_LIMIT_RFREQ_M" param1="2000000"></data>
+                    <data cmd="PERF_RES_FPS_FBT_LIMIT_CFREQ_M" param1="1400000"></data>
+                </WINDOW>
+            </FPS>
+            <FPS value="90">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_FBT_LIMIT_RFREQ_M" param1="2000000"></data>
+                    <data cmd="PERF_RES_FPS_FBT_LIMIT_CFREQ_M" param1="1450000"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.happyelements.AndroidAnimal.qq">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_FBT_GCC_DOWN_QUOTA_PCT_BY_PID" param1="30"></data>
+                    <data cmd="PERF_RES_FPS_FBT_GCC_DOWN_STEP_BY_PID" param1="2"></data>
+                    <data cmd="PERF_RES_FPS_FBT_QR_T2WNT_Y_P_BY_PID" param1="0"></data>
+                    <data cmd="PERF_RES_FPS_FBT_QR_T2WNT_X_BY_PID" param1="-10"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.miHoYo.Yuanshen">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_GBE1_ENABLE" param1="0"></data>
+                    <data cmd="PERF_RES_FPS_GBE2_ENABLE" param1="0"></data>
+                    <data cmd="PERF_RES_FRS_CT_PTIME" param1="5"></data>
+                    <!-- ifdef NT_EDIT -->
+                    <data cmd="PERF_RES_THERMAL_POLICY" param1="8"></data>
+                    <data cmd="PERF_RES_FRS_ENABLE" param1="1"></data>
+                    <data cmd="PERF_RES_FRS_PTIME" param1="10"></data>
+                    <data cmd="PERF_RES_FRS_OT_PTIME" param1="5"></data>
+                    <data cmd="PERF_RES_FRS_THROTTLED" param1="10"></data>
+                    <data cmd="PERF_RES_FRS_OT_THROTTLED" param1="20"></data>
+                    <data cmd="PERF_RES_FRS_MAX_THROTTLED_FPS" param1="2000"></data>
+                    <data cmd="PERF_RES_FRS_TARGET_TEMP" param1="41000"></data>
+                    <data cmd="PERF_RES_FRS_THRESHOLD" param1="10"></data>
+                    <data cmd="PERF_RES_FRS_MAX_FPS" param1="50"></data>
+                    <data cmd="PERF_RES_FRS_MIN_FPS" param1="50"></data>
+                    <!-- endif -->
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.miHoYo.GenshinImpact">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_GBE1_ENABLE" param1="0"></data>
+                    <data cmd="PERF_RES_FPS_GBE2_ENABLE" param1="0"></data>
+                    <!-- ifdef NT_EDIT -->
+                    <data cmd="PERF_RES_THERMAL_POLICY" param1="8"></data>
+                    <data cmd="PERF_RES_FRS_ENABLE" param1="1"></data>
+                    <data cmd="PERF_RES_FRS_PTIME" param1="10"></data>
+                    <data cmd="PERF_RES_FRS_OT_PTIME" param1="5"></data>
+                    <data cmd="PERF_RES_FRS_THROTTLED" param1="10"></data>
+                    <data cmd="PERF_RES_FRS_OT_THROTTLED" param1="20"></data>
+                    <data cmd="PERF_RES_FRS_MAX_THROTTLED_FPS" param1="2000"></data>
+                    <data cmd="PERF_RES_FRS_TARGET_TEMP" param1="41000"></data>
+                    <data cmd="PERF_RES_FRS_THRESHOLD" param1="10"></data>
+                    <data cmd="PERF_RES_FRS_MAX_FPS" param1="50"></data>
+                    <data cmd="PERF_RES_FRS_MIN_FPS" param1="50"></data>
+                    <!-- endif -->
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.miHoYo.enterprise.HK4E">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_GBE1_ENABLE" param1="0"></data>
+                    <data cmd="PERF_RES_FPS_GBE2_ENABLE" param1="0"></data>
+                    <data cmd="PERF_RES_FRS_TARGET_TEMP" param1="48000"></data>
+                    <data cmd="PERF_RES_THERMAL_POLICY" param1="4"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.miHoYo.yuanshencb">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_GBE1_ENABLE" param1="0"></data>
+                    <data cmd="PERF_RES_FPS_GBE2_ENABLE" param1="0"></data>
+                    <!-- ifdef NT_EDIT -->
+                    <data cmd="PERF_RES_THERMAL_POLICY" param1="8"></data>
+                    <data cmd="PERF_RES_FRS_ENABLE" param1="1"></data>
+                    <data cmd="PERF_RES_FRS_PTIME" param1="10"></data>
+                    <data cmd="PERF_RES_FRS_OT_PTIME" param1="5"></data>
+                    <data cmd="PERF_RES_FRS_THROTTLED" param1="10"></data>
+                    <data cmd="PERF_RES_FRS_OT_THROTTLED" param1="20"></data>
+                    <data cmd="PERF_RES_FRS_MAX_THROTTLED_FPS" param1="2000"></data>
+                    <data cmd="PERF_RES_FRS_TARGET_TEMP" param1="41000"></data>
+                    <data cmd="PERF_RES_FRS_THRESHOLD" param1="10"></data>
+                    <data cmd="PERF_RES_FRS_MAX_FPS" param1="50"></data>
+                    <data cmd="PERF_RES_FRS_MIN_FPS" param1="50"></data>
+                    <!-- endif -->
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.tencent.tmgp.dwrg">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_FBT_ULTRA_RESCUE" param1="1"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.vng.pubgmobile">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_FBT_GCC_QR_FILTER_OUTLIER" param1="1"></data>
+                    <data cmd="PERF_RES_FRS_TARGET_TEMP" param1="49000"></data>
+                    <data cmd="PERF_RES_THERMAL_POLICY" param1="0"></data>
+                    <data cmd="PERF_RES_FRS_OT_THROTTLED" param1="20"></data>
+                    <data cmd="PERF_RES_FRS_MAX_THROTTLED_FPS" param1="2000"></data>
+                    <data cmd="PERF_RES_FRS_CT_PTIME" param1="5"></data>
+                </WINDOW>
+            </FPS>
+            <FPS value="60">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_FBT_GCC_UP_STEP_BY_PID" param1="3"></data>
+                    <data cmd="PERF_RES_FPS_FBT_GCC_DOWN_SEC_PCT_BY_PID" param1="14"></data>
+                    <data cmd="PERF_RES_FPS_FBT_GCC_DOWN_STEP_BY_PID" param1="2"></data>
+                    <data cmd="PERF_RES_FPS_FBT_QR_T2WNT_Y_N" param1="50"></data>
+                    <data cmd="PERF_RES_FPS_FBT_QR_T2WNT_Y_P" param1="0"></data>
+                    <data cmd="PERF_RES_FPS_FBT_RESCUE_F" param1="50"></data>
+                    <data cmd="PERF_RES_FPS_FBT_LIMIT_RFREQ_M" param1="2000000"></data>
+                    <data cmd="PERF_RES_FPS_FBT_LIMIT_CFREQ_M" param1="1600000"></data>
+                </WINDOW>
+            </FPS>
+            <FPS value="90">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_FBT_QR_T2WNT_Y_N" param1="50"></data>
+                    <data cmd="PERF_RES_FPS_FBT_QR_T2WNT_Y_P" param1="0"></data>
+                    <data cmd="PERF_RES_FPS_FBT_ULTRA_RESCUE" param1="1"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.rekoo.pubgm">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_FBT_GCC_QR_FILTER_OUTLIER" param1="1"></data>
+                    <data cmd="PERF_RES_FRS_TARGET_TEMP" param1="49000"></data>
+                    <data cmd="PERF_RES_THERMAL_POLICY" param1="0"></data>
+                    <data cmd="PERF_RES_FRS_OT_THROTTLED" param1="20"></data>
+                    <data cmd="PERF_RES_FRS_MAX_THROTTLED_FPS" param1="2000"></data>
+                    <data cmd="PERF_RES_FRS_CT_PTIME" param1="5"></data>
+                </WINDOW>
+            </FPS>
+            <FPS value="60">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_FBT_GCC_UP_STEP_BY_PID" param1="3"></data>
+                    <data cmd="PERF_RES_FPS_FBT_GCC_DOWN_SEC_PCT_BY_PID" param1="14"></data>
+                    <data cmd="PERF_RES_FPS_FBT_GCC_DOWN_STEP_BY_PID" param1="2"></data>
+                    <data cmd="PERF_RES_FPS_FBT_QR_T2WNT_Y_N" param1="50"></data>
+                    <data cmd="PERF_RES_FPS_FBT_QR_T2WNT_Y_P" param1="0"></data>
+                    <data cmd="PERF_RES_FPS_FBT_RESCUE_F" param1="50"></data>
+                    <data cmd="PERF_RES_FPS_FBT_LIMIT_RFREQ_M" param1="2000000"></data>
+                    <data cmd="PERF_RES_FPS_FBT_LIMIT_CFREQ_M" param1="1600000"></data>
+                </WINDOW>
+            </FPS>
+            <FPS value="90">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_FBT_QR_T2WNT_Y_N" param1="50"></data>
+                    <data cmd="PERF_RES_FPS_FBT_QR_T2WNT_Y_P" param1="0"></data>
+                    <data cmd="PERF_RES_FPS_FBT_ULTRA_RESCUE" param1="1"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.pubg.imobile">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_FBT_GCC_QR_FILTER_OUTLIER" param1="1"></data>
+                    <data cmd="PERF_RES_FRS_TARGET_TEMP" param1="49000"></data>
+                    <data cmd="PERF_RES_THERMAL_POLICY" param1="1"></data>
+                    <data cmd="PERF_RES_FRS_OT_THROTTLED" param1="20"></data>
+                    <data cmd="PERF_RES_FRS_MAX_THROTTLED_FPS" param1="2000"></data>
+                    <data cmd="PERF_RES_FRS_CT_PTIME" param1="5"></data>
+                </WINDOW>
+            </FPS>
+            <FPS value="60">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_FBT_GCC_UP_STEP_BY_PID" param1="3"></data>
+                    <data cmd="PERF_RES_FPS_FBT_GCC_DOWN_SEC_PCT_BY_PID" param1="14"></data>
+                    <data cmd="PERF_RES_FPS_FBT_GCC_DOWN_STEP_BY_PID" param1="2"></data>
+                    <data cmd="PERF_RES_FPS_FBT_QR_T2WNT_Y_N" param1="50"></data>
+                    <data cmd="PERF_RES_FPS_FBT_QR_T2WNT_Y_P" param1="0"></data>
+                    <data cmd="PERF_RES_FPS_FBT_RESCUE_F" param1="50"></data>
+                    <data cmd="PERF_RES_FPS_FBT_LIMIT_RFREQ_M" param1="2000000"></data>
+                    <data cmd="PERF_RES_FPS_FBT_LIMIT_CFREQ_M" param1="1600000"></data>
+                </WINDOW>
+            </FPS>
+            <FPS value="90">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_FBT_QR_T2WNT_Y_N" param1="50"></data>
+                    <data cmd="PERF_RES_FPS_FBT_QR_T2WNT_Y_P" param1="0"></data>
+                    <data cmd="PERF_RES_FPS_FBT_ULTRA_RESCUE" param1="1"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.tencent.ig">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_FBT_GCC_QR_FILTER_OUTLIER" param1="1"></data>
+                    <data cmd="PERF_RES_FRS_TARGET_TEMP" param1="49000"></data>
+                    <data cmd="PERF_RES_THERMAL_POLICY" param1="0"></data>
+                </WINDOW>
+            </FPS>
+            <FPS value="60">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_FBT_GCC_UP_STEP_BY_PID" param1="3"></data>
+                    <data cmd="PERF_RES_FPS_FBT_GCC_DOWN_SEC_PCT_BY_PID" param1="14"></data>
+                    <data cmd="PERF_RES_FPS_FBT_GCC_DOWN_STEP_BY_PID" param1="2"></data>
+                    <data cmd="PERF_RES_FPS_FBT_QR_T2WNT_Y_N" param1="50"></data>
+                    <data cmd="PERF_RES_FPS_FBT_QR_T2WNT_Y_P" param1="0"></data>
+                    <data cmd="PERF_RES_FPS_FBT_RESCUE_F" param1="50"></data>
+                    <data cmd="PERF_RES_FPS_FBT_LIMIT_RFREQ_M" param1="2000000"></data>
+                    <data cmd="PERF_RES_FPS_FBT_LIMIT_CFREQ_M" param1="1600000"></data>
+                </WINDOW>
+            </FPS>
+            <FPS value="90">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_FBT_QR_T2WNT_Y_N" param1="50"></data>
+                    <data cmd="PERF_RES_FPS_FBT_QR_T2WNT_Y_P" param1="0"></data>
+                    <data cmd="PERF_RES_FPS_FBT_ULTRA_RESCUE" param1="1"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <!-- #ifdef NT_EDIT -->
+    <!-- add it to fix AERO-4194 -->
+    <!-- config candy crush saga prefer_idle to 0, see CR ALPS08543039 -->
+    <Package name="com.king.candycrushsaga">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_SCHED_PREFER_IDLE_PER_TASK" param1="0"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <!--#endif /* NT_EDIT */ -->
+    <Package name="com.pubg.krmobile">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_FBT_GCC_QR_FILTER_OUTLIER" param1="1"></data>
+                    <data cmd="PERF_RES_FRS_TARGET_TEMP" param1="49000"></data>
+                    <data cmd="PERF_RES_THERMAL_POLICY" param1="0"></data>
+                    <data cmd="PERF_RES_FRS_OT_THROTTLED" param1="20"></data>
+                    <data cmd="PERF_RES_FRS_MAX_THROTTLED_FPS" param1="2000"></data>
+                    <data cmd="PERF_RES_FRS_CT_PTIME" param1="5"></data>
+                </WINDOW>
+            </FPS>
+            <FPS value="60">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_FBT_GCC_UP_STEP_BY_PID" param1="3"></data>
+                    <data cmd="PERF_RES_FPS_FBT_GCC_DOWN_SEC_PCT_BY_PID" param1="14"></data>
+                    <data cmd="PERF_RES_FPS_FBT_GCC_DOWN_STEP_BY_PID" param1="2"></data>
+                    <data cmd="PERF_RES_FPS_FBT_QR_T2WNT_Y_N" param1="50"></data>
+                    <data cmd="PERF_RES_FPS_FBT_QR_T2WNT_Y_P" param1="0"></data>
+                    <data cmd="PERF_RES_FPS_FBT_RESCUE_F" param1="50"></data>
+                    <data cmd="PERF_RES_FPS_FBT_LIMIT_RFREQ_M" param1="2000000"></data>
+                    <data cmd="PERF_RES_FPS_FBT_LIMIT_CFREQ_M" param1="1600000"></data>
+                </WINDOW>
+            </FPS>
+            <FPS value="90">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_FBT_QR_T2WNT_Y_N" param1="50"></data>
+                    <data cmd="PERF_RES_FPS_FBT_QR_T2WNT_Y_P" param1="0"></data>
+                    <data cmd="PERF_RES_FPS_FBT_ULTRA_RESCUE" param1="1"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.tencent.tmgp.cod">
+        <Activity name="Common">
+            <FPS value="60">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_FBT_LIMIT_RFREQ_M" param1="2000000"></data>
+                    <data cmd="PERF_RES_FPS_FBT_LIMIT_CFREQ_M" param1="1600000"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.activision.callofduty.shooter">
+        <Activity name="Common">
+            <FPS value="60">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_SCHED_PREFER_IDLE_TA" param1="1"></data>
+                    <data cmd="PERF_RES_FPS_FBT_LIMIT_RFREQ_M" param1="2000000"></data>
+                    <data cmd="PERF_RES_FPS_FBT_LIMIT_CFREQ_M" param1="1600000"></data>
+                </WINDOW>
+            </FPS>
+            <FPS value="90">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_SCHED_PREFER_IDLE_TA" param1="1"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.garena.game.codm">
+        <Activity name="Common">
+            <FPS value="60">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_FBT_LIMIT_RFREQ_M" param1="2000000"></data>
+                    <data cmd="PERF_RES_FPS_FBT_LIMIT_CFREQ_M" param1="1600000"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+
+    <Package name="com.nothing.camera">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_POWERHAL_WHITELIST_APP_LAUNCH_TIME_COLD" param1="3000"></data>
+                    <data cmd="PERF_RES_POWERHAL_WHITELIST_APP_LAUNCH_TIME_WARM" param1="2000"></data>
+                    <data cmd="PERF_RES_FPS_FPSGO_ENABLE" param1="0"></data>
+                    <data cmd="PERF_RES_SCHED_PREFER_IDLE_TA" param1="1"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.tencent.tmgp.speedmobileEx">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_THERMAL_POLICY" param1="0"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.tencent.tmgp.cf">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_THERMAL_POLICY" param1="0"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.tencent.tmgp.cf">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_THERMAL_POLICY" param1="0"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.netease.hyxd">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_THERMAL_POLICY" param1="0"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.happyelements.AndroidAnimal.ad">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_THERMAL_POLICY" param1="0"></data>
+                    <data cmd="PERF_RES_FPS_FPSGO_ENABLE" param1="0"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.ss.android.ugc.aweme">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_FPSGO_ENABLE" param1="0"></data>
+                    <data cmd="PERF_RES_SCHED_PELT_HALFLIFE_HIGH_PRIORITY" param1="32"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.ss.android.ugc.live">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_SCHED_PELT_HALFLIFE_HIGH_PRIORITY" param1="32"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.smile.gifmaker">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_SCHED_PELT_HALFLIFE_HIGH_PRIORITY" param1="32"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.kuaishou.nebula">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_SCHED_PELT_HALFLIFE_HIGH_PRIORITY" param1="32"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.tencent.qqlive">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_SCHED_PELT_HALFLIFE_HIGH_PRIORITY" param1="32"></data>
+                    <data cmd="PERF_RES_DISP_LPHRT_MODE" param1="1"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.qiyi.video">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_SCHED_PELT_HALFLIFE_HIGH_PRIORITY" param1="32"></data>
+                    <data cmd="PERF_RES_DISP_LPHRT_MODE" param1="1"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="tv.danmaku.bili">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_SCHED_PELT_HALFLIFE_HIGH_PRIORITY" param1="32"></data>
+                    <data cmd="PERF_RES_DISP_LPHRT_MODE" param1="1"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.google.android.apps.nbu.files">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_FPSGO_ENABLE" param1="0"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.starmakerinteractive.starmaker">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_FPSGO_ENABLE" param1="0"></data>
+                    <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_0" param1="1800000"></data>
+                    <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_1" param1="2000000"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.mxtech.videoplayer.ad">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_FPSGO_ENABLE" param1="0"></data>
+                    <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_0" param1="1800000"></data>
+                    <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_1" param1="2000000"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.lunarlabs.panda">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_FPSGO_ENABLE" param1="0"></data>
+                    <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_0" param1="1500000"></data>
+                    <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_1" param1="1200000"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.google.android.apps.maps">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_FPSGO_ENABLE" param1="0"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.android.mms">
+        <Activity name="com.android.mms.ui.ComposeMessageActivity">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_FPSGO_ENABLE" param1="0"></data>
+                    <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_0" param1="1800000"></data>
+                    <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_1" param1="2000000"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.google.android.apps.messaging">
+        <Activity name="com.google.android.apps.messaging.ui.ConversationListActivity">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_FPSGO_ENABLE" param1="0"></data>
+                    <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_0" param1="1800000"></data>
+                    <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_1" param1="2000000"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+        <Activity name="com.google.android.apps.messaging.conversation.screen.ConversationActivity">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_FPSGO_ENABLE" param1="0"></data>
+                    <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_0" param1="1800000"></data>
+                    <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_1" param1="2000000"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.android.dialer">
+        <Activity name="com.android.dialer.TwelveKeyDialer">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_FPSGO_ENABLE" param1="0"></data>
+                    <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_0" param1="1800000"></data>
+                    <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_1" param1="2000000"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.google.android.dialer">
+        <Activity name="com.google.android.dialer.extensions.GoogleDialtactsActivity">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_FPSGO_ENABLE" param1="0"></data>
+                    <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_0" param1="1800000"></data>
+                    <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_1" param1="2000000"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+        <Package name="com.andromeda.androbench2">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                        <data cmd="PERF_RES_DRAM_CM_MGR_MAP_DRAM_ENABLE" param1="1"></data>
+                        <data cmd="PERF_RES_SCHED_UCLAMP_MIN_TA" param1="100"></data>
+                        <data cmd="PERF_RES_THERMAL_POLICY" param1="8"></data>
+                        <data cmd="PERF_RES_POWERHAL_SCREEN_OFF_STATE" param1="3"></data>
+                        <data cmd="PERF_RES_SCHED_UTIL_DOWN_RATE_LIMIT_US_CLUSTER_0" param1="40000"></data>
+                        <data cmd="PERF_RES_SCHED_UTIL_DOWN_RATE_LIMIT_US_CLUSTER_1" param1="40000"></data>
+                        <data cmd="PERF_RES_SCHED_UTIL_UP_RATE_LIMIT_US_CLUSTER_0" param1="0"></data>
+                        <data cmd="PERF_RES_SCHED_UTIL_UP_RATE_LIMIT_US_CLUSTER_1" param1="0"></data>
+                        <data cmd="PERF_RES_SCHED_PREFER_IDLE_TA" param1="1"></data>
+                        <data cmd="PERF_RES_FPS_FPSGO_IDLEPREFER" param1="0"></data>
+                        <data cmd="PERF_RES_SCHED_CORE_CTL_POLICY_ENABLE" param1="0"></data>
+                        <data cmd="PERF_RES_CPUCORE_MIN_CLUSTER_0" param1="6"></data>
+                        <data cmd="PERF_RES_CPUCORE_MIN_CLUSTER_1" param1="2"></data>
+                        <data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>
+                        <data cmd="PERF_RES_CPUFREQ_CCI_FREQ" param1="1"></data>
+                        <data cmd="PERF_RES_PM_QOS_CPUIDLE_MCDI_ENABLE" param1="0"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.antutu.ABenchMark">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                        <data cmd="PERF_RES_THERMAL_POLICY" param1="8"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.antutu.benchmark.full">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                        <data cmd="PERF_RES_THERMAL_POLICY" param1="8"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.primatelabs.geekbench5.corporate">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                        <data cmd="PERF_RES_THERMAL_POLICY" param1="8"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+     <Package name="com.primatelabs.geekbench5">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                        <data cmd="PERF_RES_THERMAL_POLICY" param1="8"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.primatelabs.geekbench4.corporate">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                        <data cmd="PERF_RES_THERMAL_POLICY" param1="8"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.primatelabs.geekbench6.corporate">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                        <data cmd="PERF_RES_THERMAL_POLICY" param1="8"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.primatelabs.geekbench6">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                        <data cmd="PERF_RES_THERMAL_POLICY" param1="8"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="net.kishonti.gfxbench.v50000.corporate">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                        <data cmd="PERF_RES_THERMAL_POLICY" param1="8"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="skynet.cputhrottlingtest">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                        <data cmd="PERF_RES_THERMAL_POLICY" param1="8"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.futuremark.dmandroid.application">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                        <data cmd="PERF_RES_THERMAL_POLICY" param1="8"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.google.ar.core.examples.java.computervision">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_FPS_FPSGO_ENABLE" param1="0"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="video.like">
+        <Activity name="sg.bigo.live.produce.record.VideoRecordActivity">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_FPSGO_ENABLE" param1="1"></data>
+                    <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_0" param1="1500000"></data>
+                    <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_1" param1="1300000"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.zhiliaoapp.musically">
+        <Activity name="com.ss.android.ugc.aweme.shortvideo.ui.VideoRecordNewActivity">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_FPSGO_ENABLE" param1="1"></data>
+                    <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_0" param1="1500000"></data>
+                    <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_1" param1="1300000"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.android.deskclock">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_FBT_CEILING_ENABLE" param1="1"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.ludo.king">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_FBT_LIMIT_CFREQ" param1="1200000"></data>
+                    <data cmd="PERF_RES_FPS_FBT_LIMIT_RFREQ" param1="1200000"></data>
+                    <data cmd="PERF_RES_FPS_FBT_LIMIT_CFREQ_M" param1="1000000"></data>
+                    <data cmd="PERF_RES_FPS_FBT_LIMIT_RFREQ_M" param1="1000000"></data>
+                    <data cmd="PERF_RES_FPS_FBT_CEILING_ENABLE" param1="1"></data>
+                    <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_0" param1="1200000"></data>
+                    <data cmd="PERF_RES_FPS_FPSGO_ENABLE" param1="0"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.instagram.android">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_FPSGO_ENABLE" param1="0"></data>
+                    <data cmd="PERF_RES_SCHED_PELT_HALFLIFE_HIGH_PRIORITY" param1="32"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.twitter.android">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_FPSGO_ENABLE" param1="0"></data>
+                    <data cmd="PERF_RES_SCHED_PELT_HALFLIFE_HIGH_PRIORITY" param1="32"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.facebook.katana">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_FPS_FPSGO_ENABLE" param1="0"></data>
+                    <data cmd="PERF_RES_SCHED_PELT_HALFLIFE_HIGH_PRIORITY" param1="32"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.snapchat.android">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_THERMAL_POLICY" param1="11"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.tencent.wemeet.app">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_THERMAL_POLICY" param1="11"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.tencent.voov">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_THERMAL_POLICY" param1="11"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.google.android.apps.tachyon">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_THERMAL_POLICY" param1="11"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.google.android.apps.meetings">
+        <Activity name="Common">
+            <FPS value="Common">
+                <WINDOW mode="Common">
+                    <data cmd="PERF_RES_THERMAL_POLICY" param1="11"></data>
+                </WINDOW>
+            </FPS>
+        </Activity>
+    </Package>
+</WHITELIST>
