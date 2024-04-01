@@ -140,6 +140,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)-kernel/kernel:kernel
 
+# Keymaster
+PRODUCT_PACKAGES += \
+    libkeymaster_messages.vendor \
+    libkeymaster_portable.vendor \
+    libkeymint.vendor \
+    libpuresoftkeymasterdevice.vendor
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
