@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from Pacman (Nothing OS 2.5.4A).
+# All unpinned blobs below are extracted from Pacman (Nothing OS 2.5.5).
 
 # AEE (Android Exception Enhancement)
 vendor/lib64/libaedv.so
