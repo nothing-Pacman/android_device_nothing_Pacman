@@ -51,7 +51,7 @@ vendor/lib64/libnxp_extamp_intf.so
 vendor/lib64/librt_extamp_intf.so
 vendor/lib64/libspeech_enh_lib.so
 vendor/lib64/libspeechparser_vendor.so
-vendor/lib64/mt6886/libmtk_drvb.so:vendor/lib64/libmtk_drvb.so
+vendor/lib64/mt6886/libmtk_drvb.so;SYMLINK=vendor/lib64/libmtk_drvb.so
 vendor/lib64/vendor.mediatek.hardware.audio@6.1.so
 vendor/lib64/vendor.mediatek.hardware.audio@6.1.so
 vendor/lib64/vendor.mediatek.hardware.audio@7.1.so
@@ -335,12 +335,12 @@ vendor/lib64/egl/libMEOW_data.so
 vendor/lib64/egl/libMEOW_gift.so
 vendor/lib64/egl/libMEOW_qt.so
 vendor/lib64/egl/libMEOW_trace.so
-vendor/lib64/egl/mt6886/libGLES_mali.so:vendor/lib64/egl/libGLES_mali.so
+vendor/lib64/egl/mt6886/libGLES_mali.so;SYMLINK=vendor/lib64/egl/libGLES_mali.so
 vendor/lib64/hw/hwcomposer.mtk_common.so
-vendor/lib64/hw/mt6886/android.hardware.graphics.allocator@4.0-impl-mediatek.so:vendor/lib64/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so
-vendor/lib64/hw/mt6886/android.hardware.graphics.mapper@4.0-impl-mediatek.so:vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so
-vendor/lib64/hw/mt6886/gralloc.common.so:vendor/lib64/hw/gralloc.common.so
-vendor/lib64/hw/mt6886/vulkan.mali.so:vendor/lib64/hw/vulkan.mali.so
+vendor/lib64/hw/mt6886/android.hardware.graphics.allocator@4.0-impl-mediatek.so;SYMLINK=vendor/lib64/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so
+vendor/lib64/hw/mt6886/android.hardware.graphics.mapper@4.0-impl-mediatek.so;SYMLINK=vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so
+vendor/lib64/hw/mt6886/gralloc.common.so;SYMLINK=vendor/lib64/hw/gralloc.common.so
+vendor/lib64/hw/mt6886/vulkan.mali.so;SYMLINK=vendor/lib64/hw/vulkan.mali.so
 vendor/lib64/hw/vendor.mediatek.hardware.mms@1.7-impl.so
 vendor/lib64/libDefaultFpsActor.so
 vendor/lib64/libFrameRecord.so
@@ -358,10 +358,10 @@ vendor/lib64/libion_mtk.so
 vendor/lib64/libion_ulit.so
 vendor/lib64/libladder.so
 vendor/lib64/libmml.so
-vendor/lib64/mt6886/arm.graphics-V3-ndk.so:vendor/lib64/arm.graphics-V3-ndk.so
-vendor/lib64/mt6886/libaalservice.so:vendor/lib64/libaalservice.so
-vendor/lib64/mt6886/libaiselector.so:vendor/lib64/libaiselector.so
-vendor/lib64/mt6886/libdpframework.so:vendor/lib64/libdpframework.so
+vendor/lib64/mt6886/arm.graphics-V3-ndk.so;SYMLINK=vendor/lib64/arm.graphics-V3-ndk.so
+vendor/lib64/mt6886/libaalservice.so;SYMLINK=vendor/lib64/libaalservice.so
+vendor/lib64/mt6886/libaiselector.so;SYMLINK=vendor/lib64/libaiselector.so
+vendor/lib64/mt6886/libdpframework.so;SYMLINK=vendor/lib64/libdpframework.so
 vendor/lib64/vendor.mediatek.hardware.composer_ext@1.0.so
 vendor/lib64/vendor.mediatek.hardware.mmagent@1.0.so
 vendor/lib64/vendor.mediatek.hardware.mmagent@1.1.so
@@ -533,17 +533,17 @@ vendor/etc/seccomp_policy/mediaswcodec.policy
 
 # Media (PQ)
 vendor/etc/init/vendor.mediatek.hardware.pq_aidl-service.rc
-vendor/lib64/hw/mt6886/vendor.mediatek.hardware.pq_aidl-impl.so:vendor/lib64/hw/vendor.mediatek.hardware.pq_aidl-impl.so
+vendor/lib64/hw/mt6886/vendor.mediatek.hardware.pq_aidl-impl.so;SYMLINK=vendor/lib64/hw/vendor.mediatek.hardware.pq_aidl-impl.so
 vendor/lib64/libpqframework.so
 vendor/lib64/libpqhdrmetaparser.so
 vendor/lib64/libpqsharememory.so
 vendor/lib64/libpqtuning.so
 vendor/lib64/libpqxmlparser.so
 vendor/lib64/librgbwlightsensor.so
-vendor/lib64/mt6886/libpq_cust_base.so:vendor/lib64/libpq_cust_base.so
-vendor/lib64/mt6886/libpq_prot.so:vendor/lib64/libpq_prot.so
-vendor/lib64/mt6886/libpqconfig.so:vendor/lib64/libpqconfig.so
-vendor/lib64/mt6886/libpqparamparser.so:vendor/lib64/libpqparamparser.so
+vendor/lib64/mt6886/libpq_cust_base.so;SYMLINK=vendor/lib64/libpq_cust_base.so
+vendor/lib64/mt6886/libpq_prot.so;SYMLINK=vendor/lib64/libpq_prot.so
+vendor/lib64/mt6886/libpqconfig.so;SYMLINK=vendor/lib64/libpqconfig.so
+vendor/lib64/mt6886/libpqparamparser.so;SYMLINK=vendor/lib64/libpqparamparser.so
 vendor/lib64/vendor.mediatek.hardware.mmlpq-V2-ndk.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.0.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.1.so
@@ -580,8 +580,8 @@ vendor/lib64/libneuropilot_hal_utils.so
 vendor/lib64/libnpagent.so
 vendor/lib64/libnpagent_server.so
 vendor/lib64/libtflite_mtk.so
-vendor/lib64/mt6886/libneuralnetworks_sl_driver_mtk_prebuilt.so:vendor/lib64/libneuralnetworks_sl_driver_mtk_prebuilt.so
-vendor/lib64/mt6886/libneuron_adapter_mgvi.so:vendor/lib64/libneuron_adapter_mgvi.so
+vendor/lib64/mt6886/libneuralnetworks_sl_driver_mtk_prebuilt.so;SYMLINK=vendor/lib64/libneuralnetworks_sl_driver_mtk_prebuilt.so
+vendor/lib64/mt6886/libneuron_adapter_mgvi.so;SYMLINK=vendor/lib64/libneuron_adapter_mgvi.so
 vendor/lib64/vendor.mediatek.hardware.neuropilot.agent@1.0.so
 vendor/lib64/vendor.mediatek.hardware.neuropilot.agent@1.1.so
 vendor/lib64/vendor.mediatek.hardware.neuropilot.agent@1.2.so
