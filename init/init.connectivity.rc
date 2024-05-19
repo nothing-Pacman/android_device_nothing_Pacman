@@ -63,16 +63,6 @@ service conninfra_loader /vendor/bin/conninfra_loader
     group system
     oneshot
 
-on property:ro.build.type=eng
-    write /sys/kernel/debug/tracing/tracing_on 1
-
-on property:vendor.connsys.driver.ready=yes && property:persist.vendor.connsys.coredump.mode=*
-    write /proc/driver/conninfra_dbg "0x13 ${persist.vendor.connsys.coredump.mode}"
-    write /dev/conn_dbg_dev "0x13 ${persist.vendor.connsys.coredump.mode}"
-
-on property:persist.vendor.em.dy.debug=1
-    setprop persist.vendor.connsys.coredump.mode 0
-
 #
 # Connectivity related services (End)
 #
